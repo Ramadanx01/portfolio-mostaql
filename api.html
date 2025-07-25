@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="محمد بدوي - مطور واجهات أمامية يعرض أعماله الاحترافية ومهاراته في تصميم مواقع الويب.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta property="og:description" content="معرض أعمال محمد بدوي - مطور واجهات أمامية متخصص في تصميم مواقع احترافية.">
+  <meta property="og:image" content="https://ramadanx01.github.io/images/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ramadanx01.github.io/">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:site_name" content="محمد بدوي | Front-End Developer">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta name="twitter:description" content="شاهد أعمالي كمطور مواقع واجهات أمامية محترف.">
+  <meta name="twitter:image" content="https://ramadanx01.github.io/images/profile.jpg">
+
+  <title>محمد بدوي - API</title>
+  <link href="./css/project-details.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/profile.jpg" alt="صورتي" class="profile-img" loading="lazy" />
+        <a class="navbar-brand" href="./index.html">محمد بدوي</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./about.html">عني</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#projects">أعمالي</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html#skills">مهاراتي</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">تواصل معي</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./api.html">API</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="project-details" data-aos="fade-up">
+    <div class="container">
+      <h1 class="text-center mb-5">ملفات JSON المستخدمة في المشاريع</h1>
+      <p class="lead text-center mb-4">
+        هذه الصفحة تعرض ملفات JSON التي تم استخدامها لمحاكاة البيانات في بعض المشاريع الديناميكية. هذه الملفات تساعد في فهم كيفية هيكلة البيانات التي يتم استرجاعها من واجهات برمجة التطبيقات (APIs).
+      </p>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0">بيانات المستخدمين (Login System)</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                هذا الملف يمثل هيكل بيانات المستخدمين المستخدم في مشروع نظام تسجيل الدخول الوهمي. يحتوي على معلومات أساسية لكل مستخدم مثل الاسم، اسم المستخدم، البريد الإلكتروني، والعنوان.
+              </p>
+              <a href="./api/users.json" target="_blank" class="btn btn-outline-primary">عرض ملف JSON</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0">بيانات المنشورات (Login System)</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                هذا الملف يمثل هيكل بيانات المنشورات المستخدم في مشروع نظام تسجيل الدخول الوهمي. كل منشور مرتبط بمعرف مستخدم (`userId`) ويحتوي على عنوان ومحتوى.
+              </p>
+              <a href="./api/posts.json" target="_blank" class="btn btn-outline-primary">عرض ملف JSON</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0">بيانات الدورات (Korsaty)</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                هذا الملف يمثل هيكل بيانات الدورات التدريبية المستخدم في مشروع "كورساتي". يحتوي على تفاصيل الدورات مثل العنوان، الوصف، الصورة، والتقنيات المستخدمة.
+              </p>
+              <a href="./api/courses.json" target="_blank" class="btn btn-outline-primary">عرض ملف JSON</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content text-center">
+        <p>© محمد بدوي - 2025 | جميع الحقوق محفوظة</p>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <a href="https://mostaql.com/u/Mo_Ramadan555" target="_blank" class="btn btn-primary">
+            راسلني عبر مستقل
+          </a>
+          <a href="https://khamsat.com/user/mohamad_ramadan555" target="_blank" class="btn btn-outline-primary">
+            راسلني عبر خمسات
+          </a>
+        </div>
+      </div>
+      <button id="back-to-top" title="الرجوع للأعلى" aria-label="الرجوع للأعلى"><i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/spa.js"></script>
+  <script>
+    AOS.init();
+    const backToTopButton = document.getElementById('back-to-top');
+    if (backToTopButton) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          backToTopButton.style.display = 'block';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
+      });
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "دورة تطوير الويب للمبتدئين",
+    "description": "تعلم أساسيات تطوير الويب من الصفر حتى الاحتراف، بما في ذلك HTML، CSS، وJavaScript.",
+    "image": "../images/korsty.jpg",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+  },
+  {
+    "id": 2,
+    "title": "دورة JavaScript المتقدمة",
+    "description": "تعمق في مفاهيم JavaScript المتقدمة مثل الـ closures، الـ prototypes، والبرمجة غير المتزامنة.",
+    "image": "../images/korsty.jpg",
+    "technologies": ["JavaScript", "ES6+", "APIs"]
+  },
+  {
+    "id": 3,
+    "title": "تصميم واجهات المستخدم (UI/UX)",
+    "description": "تعلم مبادئ تصميم واجهات المستخدم وتجربة المستخدم لإنشاء تطبيقات جذابة وسهلة الاستخدام.",
+    "image": "../images/korsty.jpg",
+    "technologies": ["Figma", "Adobe XD", "UI/UX Principles"]
+  }
+]

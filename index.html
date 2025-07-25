@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="محمد بدوي - مطور واجهات أمامية يعرض أعماله الاحترافية ومهاراته في تصميم مواقع الويب.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta property="og:description" content="معرض أعمال محمد بدوي - مطور واجهات أمامية متخصص في تصميم مواقع احترافية.">
+  <meta property="og:image" content="https://ramadanx01.github.io/images/profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ramadanx01.github.io/">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:site_name" content="محمد بدوي | Front-End Developer">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="محمد بدوي | مطور واجهات أمامية">
+  <meta name="twitter:description" content="شاهد أعمالي كمطور مواقع واجهات أمامية محترف.">
+  <meta name="twitter:image" content="https://ramadanx01.github.io/images/profile.jpg">
+
+  <title>محمد بدوي | مطور واجهات أمامية</title>
+  <link href="./css/project-details.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/profile.jpg" alt="صورتي" class="profile-img" loading="lazy" />
+        <a class="navbar-brand" href="./index.html">محمد بدوي</a>
+      </div>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="./about.html">عني</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">أعمالي</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">مهاراتي</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">تواصل معي</a></li>
+          <li class="nav-item"><a class="nav-link" href="./api.html">API</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="text-center">
+    <div class="container">
+      <h1>أهلاً بك في معرض أعمالي</h1>
+        <p class="lead">متاح حاليًا لتنفيذ مشاريع احترافية — تصفح أعمالي وابدأ مشروعك بثقة.</p>
+      <a href="#projects" class="btn btn-primary mt-3" aria-label="استكشف أعمالي">استكشف أعمالي ↓</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">عني باختصار</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+          <p class="lead">
+            أنا مطور واجهات أمامية (Front-End Developer) متخصص في بناء مواقع ويب تفاعلية وجذابة باستخدام أحدث التقنيات مثل HTML، CSS، JavaScript، وBootstrap. أهدف دائمًا لتقديم تجربة مستخدم مميزة وتصميمات عصرية. هذا المعرض يعرض نماذج من أعمالي التي تعكس شغفي واهتمامي بالتفاصيل. أعمل حاليًا على توسيع مهاراتي في تطوير الواجهات الخلفية (Back-End) لأصبح مطور ويب متكامل (Full-Stack Developer) في المستقبل القريب.
+          </p>
+          <div class="text-center mt-4">
+            <a href="./about.html" class="btn btn-outline-primary">المزيد عني</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">أعمالي</h2>
+      <div class="row" id="project-list"></div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">مهاراتي وأدواتي</h2>
+      
+      <!-- Front-End مهارات -->
+      <h3 class="text-center mt-5 mb-4" data-aos="fade-up"><i class="ri-code-s-slash-line me-2"></i>مهارات تطوير الواجهات الأمامية</h3>
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-card"><i class="fab fa-html5 fa-2x mb-2"></i><br>HTML5</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-card"><i class="fab fa-css3-alt fa-2x mb-2"></i><br>CSS3</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-card"><i class="fab fa-js fa-2x mb-2"></i><br>JavaScript</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-card"><i class="fab fa-bootstrap fa-2x mb-2"></i><br>Bootstrap 5</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="skill-card"><i class="ri-device-line fa-2x mb-2"></i><br>responsive Design</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="skill-card"><i class="ri-css3-fill fa-2x mb-2"></i><br>CSS Animations</div>
+        </div>
+      </div>
+
+      
+        
+
+
+      <!-- أدوات وتقنيات -->
+      <h3 class="text-center mt-5 mb-4" data-aos="fade-up"><i class="ri-tools-fill me-2"></i>الأدوات والتقنيات</h3>
+      <div class="row justify-content-center mt-3">
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="700">
+          <div class="skill-card"><i class="fab fa-github fa-2x mb-2"></i><br>Git & GitHub</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="skill-card"><i class="ri-terminal-box-fill fa-2x mb-2"></i><br>VS Code</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="900">
+          <div class="skill-card"><i class="ri-rfid-fill fa-2x mb-2"></i><br>APIs</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="1000">
+          <div class="skill-card"><i class="ri-palette-fill fa-2x mb-2"></i><br>Figma</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="1100">
+          <div class="skill-card"><i class="ri-store-3-fill fa-2x mb-2"></i><br>LocalStorage</div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="1200">
+          <div class="skill-card"><i class="ri-slideshow-3-fill fa-2x mb-2"></i><br>ThimWagon</div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="./skills.html" class="btn btn-primary" aria-label="المزيد من المهارات">عرض جميع المهارات التفصيلية <i class="ri-arrow-left-line me-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content text-center">
+        <p>© محمد بدوي - 2025 | جميع الحقوق محفوظة</p>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <a href="https://mostaql.com/u/Mo_Ramadan555" target="_blank" class="btn btn-primary">
+            راسلني عبر مستقل
+          </a>
+          <a href="https://khamsat.com/user/mohamad_ramadan555" target="_blank" class="btn btn-outline-primary">
+            راسلني عبر خمسات
+          </a>
+        </div>
+      </div>
+      <button id="back-to-top" title="الرجوع للأعلى" aria-label="الرجوع للأعلى"><i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+
+  <!-- Modal for project details -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModalTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+        </div>
+        <div class="modal-body" id="projectModalBody">
+          <div class="text-center mb-4">
+            <img id="projectModalImage" src="" alt="" class="img-fluid rounded mb-4">
+          </div>
+          <div id="projectModalDescription"></div>
+          <div class="mt-4">
+            <h5>التقنيات المستخدمة</h5>
+            <div class="tech-badges mb-4" id="projectModalTech"></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a id="projectModalLive" href="#" target="_blank" class="btn btn-primary">عرض المشروع</a>
+          <a id="projectModalGithub" href="#" target="_blank" class="btn btn-outline-secondary">عرض الكود</a>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/spa.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #F9FAFB; /* خلفية رمادية فاتحة */
+  color: #1E3A8A; /* نص أزرق داكن */
+}
+
+.bg-dark {
+  background-color: #1E3A8A !important; /* أزرق داكن للهيدر والفوتر */
+}
+
+.bg-light {
+  background-color: #F3F4F6 !important; /* رمادي فاتح للأقسام */
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF !important; /* أبيض للاسم */
+  display: flex; /* لجعل الصورة والنص في سطر واحد */
+  align-items: center; /* لمحاذاة رأسية */
+  gap: 10px; /* مسافة بين الصورة والنص */
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  color: #FFFFFF !important; /* أبيض للروابط */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #60A5FA !important; /* أزرق فاتح عند التمرير */
+}
+
+#hero {
+  padding: 100px 0;
+}
+
+#hero h1 {
+  font-weight: 700;
+  color: #1E3A8A;
+}
+
+#hero p {
+  color: #6B7280; /* رمادي للوصف */
+}
+
+/* تنسيق الأزرار العامة في الموقع */
+.btn-primary {
+  background-color: #60A5FA; /* أزرق فاتح للأزرار الأساسية */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: #FFFFFF; /* نص أبيض للأزرار الأساسية */
+}
+
+.btn-primary:hover {
+  background-color: #1E3A8A; /* أزرق داكن عند التمرير */
+  transform: translateY(-2px);
+  color: #FFFFFF; /* نص أبيض عند التمرير */
+}
+
+.btn-outline-secondary {
+  border-color: #6B7280; /* لون حدود رمادي */
+  color: #6B7280; /* لون نص رمادي */
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6B7280; /* خلفية رمادية عند التمرير */
+  color: #FFFFFF; /* نص أبيض عند التمرير */
+  transform: translateY(-2px);
+}
+
+/* تنسيق زر "تفاصيل المشروع" */
+.btn-outline-primary {
+  border-color: #60A5FA; /* لون حدود أزرق فاتح */
+  color: #60A5FA; /* لون نص أزرق فاتح */
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #60A5FA; /* خلفية أزرق فاتح عند التمرير */
+  color: #FFFFFF; /* نص أبيض عند التمرير */
+  transform: translateY(-2px);
+}
+
+
+.project-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1); /* تكبير الصورة عند التمرير */
+}
+
+.project-card .card-body {
+  padding: 25px;
+}
+
+.project-card h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1E3A8A;
+}
+
+.project-card p {
+  color: #6B7280;
+  font-size: 1rem;
+}
+
+.skill-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  color: #1E3A8A;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+footer p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#about p {
+  line-height: 1.8; /* تباعد أفضل للنص */
+  font-size: 1.2rem; /* حجم نص أكبر قليلاً للوضوح */
+}
+
+/* تنسيق صورة البروفايل في الناف بار */
+.profile-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 8px; /* تم التعديل هنا */
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease; /* تأثير عند التمرير */
+}
+
+.profile-img:hover {
+  transform: scale(1.1); /* تكبير الصورة عند التمرير */
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.project-card .card-body {
+  padding: 15px;
+}
+.tech-badges .badge {
+  background-color: #007bff;
+  color: white;
+  margin: 0 5px 5px 0;
+  padding: 5px 10px;
+}
