@@ -74,7 +74,7 @@ const projects = [
     description: "تطبيق ويب بسيط وفعال لتنفيذ العمليات الحسابية الأساسية (الجمع، الطرح، الضرب، القسمة). يتميز بواجهة مستخدم نظيفة وبديهية، مما يجعله سهل الاستخدام لإجراء حسابات سريعة ودقيقة.",
     image: `${IMAGE_PATH}calcoulater.jpg`,
     live: `https://ramadanx01.github.io/calcolator-wood/`,
-    github: `https://github.com/Ramadanx01/calcolator-wood`,
+    github: null,
     technologies: ["HTML5", "CSS3", "JavaScript"]
   },
   {
